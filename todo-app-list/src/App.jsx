@@ -6,16 +6,14 @@ import Todoapp from './TodoComponents/Todoapp'
 
 function App() {
 const [listTodo , setListTodo] = useState([]);
-useState([])
-useState([])
-useState('')
-let addlist = (Text) =>{
+
+let addList = (Text) =>{
   setListTodo([...listTodo,Text])
 }
 
   return (
     <>
-      <Todoapp/>
+      <Todoapp addList = {addList}/>
     </>
   )
 }

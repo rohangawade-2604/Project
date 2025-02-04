@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './todo.css'
 
 
-const Todoapp = () => {
+const Todoapp = (props) => {
     const[Text , setText] = useState('')
 
     return (
@@ -15,7 +15,10 @@ const Todoapp = () => {
                     setText(e.target.value)
                 }}/>
 
-                <button className='add-btn'>+</button>
+                <button className='add-btn' 
+                onClick={() => {
+                    props.addList(Text)
+                }}>+</button>
                 <div>{Text}</div>
                 
             </div>

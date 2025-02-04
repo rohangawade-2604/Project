@@ -1,0 +1,241 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    width: 100%;
+    height: auto;
+}
+html,body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+}
+
+.content1 {
+   margin: 0px;
+   padding: 20px;
+  
+}
+#logo{
+    padding: 40px;
+    margin-right: 40%;
+    font-size: 25px;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+    font-size: 20px;
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+
+.image{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./tonystark.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.content{
+    position: absolute;
+    bottom: 18%;
+    left: 60%;
+}
+
+span{
+    font-weight: bolder;
+    
+}
+
+/* about page */
+
+.info{
+   height: 100vh;
+   width: 100%;
+   background-color: black;
+   position: relative;
+   border: 5px solid white;
+   
+}
+
+h2{
+    width: 100%;
+   text-align: center;
+   font-size: 40px;
+   padding: 50px;
+   margin-right: 20px;
+   border-radius: 20px;
+   box-shadow: 10px 12px 10px white;
+}
+img{
+    margin: 3%;
+    padding: 1%;
+    border-radius: 10%;
+    box-shadow: 10px 12px 10px white;
+    
+    
+}
+
+.para{
+    position: absolute;
+    left: 55%;
+    bottom: 23%;
+    font-size: 30px;
+}
+
+/*---------project page-------------*/
+
+.cards{
+    height: auto;
+    width: 100%;
+    /* padding-bottom: 10px; */
+    /* background-color: black; */
+   margin: auto;
+   display: flex;
+   /* grid-template-columns: auto auto auto; */
+   flex-wrap: wrap;
+   margin-left: 0px;
+   background-image: url(./ironfull.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.bg{
+    background-image: url(./jarvis.png);
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 300px;
+    background-size: cover;
+    /* opacity: 0.4; */
+
+    /* display: inline-block;/ */
+}
+
+.bg1{
+    background-image: url(./arc\ reactor.png);
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 300px;
+    background-size:cover;
+    background-position: center;
+    /* opacity: 0.4; */
+    /* display: inline-block;/ */
+}
+
+.bg2{
+    background-image: url(./hand.png);
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 300px;
+    background-size:cover;
+    /* opacity: 0.4; */
+    /* background-position: center; */
+    /* display: inline-block;/ */
+}
+
+.img{
+    margin: 40px;
+    width: 350px;
+    border: 2px solid white;
+    /* background-color: rgb(189, 170, 170); */
+    padding: 20px;
+    box-shadow: 5px 5px 30px rgb(67, 66, 66);
+}
+
+#btn{
+   padding: 2px;
+   /* margin: 10px; */
+  margin-left: 70px;
+  border: 2px solid white;
+  border-radius: 5px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    /* position: absolute; */
+    box-shadow: 5px 5px 30px white;
+
+}
+/*-------------Contact Page-------------*/
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative;
+    background-color: black;
+    /* background-image: url(./relax.png) ;
+    background-repeat: no-repeat;
+    background-position: cover; */
+    
+
+}
+.infor{
+   
+    height: 100vh;
+    width: 50%;
+    /* background-color: red; */
+    position: absolute;
+    left: 50%;
+
+}
+.form{
+    border-radius: 2px;
+}
+
+#btn2{
+   margin-left: 15%;
+   border: 3px solid black;
+   padding: 15px 150px;
+   border-radius: 20px;
+   opacity: 0.6;
+   background-color:white;
+   transition-property: background-color;
+   transition-duration: .1s;
+   transition-timing-function: ease-in-out;
+   /* transiton delay and timing function works with togther */
+   transition-delay: .2s;
+}
+
+#irony{
+    box-shadow: 2px 2px 20px white;
+    background-color: skyblue;
+    border: 2px solid black;
+    padding: 5px;
+    
+}
+
+input{
+    font-size: 20px;
+    opacity: 0.6; 
+    width: 40rem; 
+    height: 50px;
+    border-radius: 10px;
+    /* position: relative; */
+}
+
+textarea{
+    width:40rem; 
+    height:200px; 
+    font-size: 30px;  
+    /* margin-left: 50px;  */
+    opacity: 0.7; 
+    border-radius: 10px;
+}
+   
+#btn2:hover{
+    background-color: blue;
+    
+}

@@ -16,12 +16,25 @@
         <div class="log">
             <h1 class="logo" style="color: white;">spirit</h1>
         </div>
+
         <ul id="menuList">
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Project</a></li>
             <li><a href="">Contact</a></li>
+
+            <li>
+                <div class="search-bar1">
+                    <input type="text" placeholder="Search...">
+                    <i class="fa-solid fa-magnifying-glass" style="color: black;"></i>
+                </div>
+            </li>
         </ul>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <i class="fa-solid fa-magnifying-glass" style="color: black;"></i>
+        </div>
 
         <div class="menu-bar">
             <i class="fa-solid fa-bars" style="color: aliceblue;" onclick="showMenu()"></i>
@@ -30,15 +43,17 @@
 
 
     <script>
-        
+
         let menuList = document.getElementById("menuList")
         menuList.style.maxHeight = "0px";
 
         const showMenu = () => {
-            if (menuList.style.maxHeight == "0px"){
+
+            
+            if (menuList.style.maxHeight == "0px") {
                 menuList.style.maxHeight = "300px";
             }
-            else{
+            else {
                 menuList.style.maxHeight = "0px";
             }
         }

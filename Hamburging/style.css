@@ -35,7 +35,14 @@ nav ul li a{
   display: none;
 }
 
+.search-bar1{
+  display: none;
+}
+
+
+
 @media  (max-width: 412px) {
+
 
   nav ul{
     position: absolute;
@@ -53,6 +60,13 @@ nav ul li a{
     padding: 20px;
   }
 
+  .search-bar1{
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    margin-left: 10px;
+  }
+
   .menu-bar{
     display: block;
     cursor: pointer;
@@ -60,6 +74,10 @@ nav ul li a{
 
   #menuList{
     transition: all 0.3s ease-in-out;
+  }
+
+  .search-bar{
+    display: none;
   }
   
 }

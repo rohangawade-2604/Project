@@ -6,6 +6,10 @@
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+.contact_page{
+  height: 120vh;
+}
+
 .contact_desc{
   background-color: lightblue;
   text-align: center;
@@ -23,9 +27,31 @@
   
 } 
 
+.name_email{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.name1{
+   padding: 12px;
+   border: none;
+   border-bottom: 2px solid black;
+  
+}
+
+.msg{
+  padding: 12px;
+  width: 20%;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
 .sub{
   padding: 12px;
-  width: 25%;
+  width: 28%;
+   border: none;
+   border-bottom: 2px solid black;
 }
 
 

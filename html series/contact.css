@@ -9,9 +9,41 @@
   box-shadow: none;
 }
 
+.descript{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.head{
+    text-align: center;
+}
+
+#param{
+    text-align: center;
+    align-items: center;
+    width: 40%;
+    margin-left: 29%;
+}
+
+.full_contact{
+    position: relative;
+    background-color: lightblue;
+    height: 45vh;
+}
+
 .contact{
+    background: white;
     display: flex;
     justify-content: space-evenly;
+    gap: 70px;
+    position: absolute;
+    left: 21%;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px;
 }
 
 
@@ -63,9 +95,41 @@ input{
 
 /*------------- contact information div------------ */
 
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    padding-top: 30px;
+    /* border: 2px solid black; */
+    background-color: turquoise;
+}
+
 .email{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.call_us{
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+    gap: 10px;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+    gap: 10px;
+}
+
+.working{
+    display: flex;
+    flex-direction: row;
+     align-items: center;
     gap: 10px;
 }
 

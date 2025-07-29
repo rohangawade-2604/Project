@@ -3,3 +3,32 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.name_email{
+    display: flex;
+    gap: 20px;
+
+}
+
+#sub{
+    width: 420px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+#msg{
+    width: 420px;
+    padding: 10px;
+    padding-left: 20px;
+}
+#name{
+   width: 200px;
+   padding: 10px;
+   padding-left: 20px;
+}

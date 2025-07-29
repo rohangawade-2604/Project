@@ -9,6 +9,11 @@
   box-shadow: none;
 }
 
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 form{
     display: flex;
@@ -55,4 +60,7 @@ input{
     border: none;
     border-bottom: 2px solid black;
 }
+
+/*------------- contact information div------------ */
+
 

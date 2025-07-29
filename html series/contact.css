@@ -63,4 +63,9 @@ input{
 
 /*------------- contact information div------------ */
 
+.email{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 

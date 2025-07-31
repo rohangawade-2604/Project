@@ -32,3 +32,62 @@
     font-size: 50px;
     font-weight: bold;
 }
+
+.Contact{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+    padding: 40px;
+    border: 2px solid black;
+}
+
+.head1{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;   
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.para{
+    width: 70%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    border: 2px solid black;
+    width: 30%;
+}
+
+.form_part{
+    width: 38%;
+    padding: 40px;
+    border: 2px solid black;
+}
+
+.inputs{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}

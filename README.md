@@ -1,6 +1,7 @@
 # Project
 
-#HTML css js 
+#HTML
 #React
 #html 
 #CSs
+#js

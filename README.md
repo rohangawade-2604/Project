@@ -1,8 +1,3 @@
 # Project
+#html
 
-#html
-#css
-#js 
-#react
-#scss
-#html
